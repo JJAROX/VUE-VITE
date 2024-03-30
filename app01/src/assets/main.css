@@ -47,7 +47,7 @@
 }
 
 .car-div {
-  height: 23.438rem;
+  height: 29rem;
   background-color: lightgray;
   width: 12rem;
   border-radius: 0.313rem;
@@ -134,4 +134,34 @@
   margin-left: 0.625rem;
   font-size: 1.125rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-year {
+  position: absolute;
+  top: 22rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-info-btn {
+  position: absolute;
+  top: 26rem;
+  width: 5rem;
+  color: white;
+  border: none;
+  background-color: rgb(73, 73, 73);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-info-btn:hover {
+  background-color: rgb(123, 123, 123);
 }
