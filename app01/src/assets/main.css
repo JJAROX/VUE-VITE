@@ -1,0 +1,137 @@
+.vue-title {
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vue-message {
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app-container {
+  border: 0.188rem dashed red;
+  height: fit-content;
+  width: fit-content;
+}
+
+.app-container>* {
+  margin-inline: 0.938rem;
+  margin-bottom: 0.938rem;
+}
+
+.fancy-ds-button {
+  background-color: blue;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+  height: 2.188rem;
+  padding-inline: 0.938rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inline-div {
+  margin: 0.938rem;
+  padding: 0.938rem;
+  border: 0.188rem dashed blue;
+  height: fit-content;
+  width: fit-content;
+}
+
+.exercise {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.car-div {
+  height: 23.438rem;
+  background-color: lightgray;
+  width: 12rem;
+  border-radius: 0.313rem;
+  position: relative;
+}
+
+.car-color {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cars-container>* {
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.car-p {
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-damaged {
+  position: absolute;
+  top: 2.5rem;
+  width: 100%;
+  background-color: red;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-not-damaged {
+  position: absolute;
+  top: 2.5rem;
+  width: 100%;
+  background-color: rgb(54, 248, 54);
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-img {
+  position: absolute;
+  top: 6.25rem;
+  width: 100%;
+}
+
+.car-id {
+  position: absolute;
+  top: 18.125rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-name {
+  position: absolute;
+  top: 20rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
