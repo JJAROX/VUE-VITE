@@ -54,6 +54,22 @@
   position: relative;
 }
 
+.car-div-2 {
+  height: 20rem;
+  background-color: lightgray;
+  width: 12rem;
+  border-radius: 0.313rem;
+  position: relative;
+}
+
+.car-div-3 {
+  height: 15rem;
+  background-color: lightgray;
+  width: 12rem;
+  border-radius: 0.313rem;
+  position: relative;
+}
+
 .car-color {
   position: absolute;
   top: 0;
@@ -65,10 +81,34 @@
   align-items: center;
 }
 
+.car-color-2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .cars-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.cars-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45rem;
+}
+
+.cars-container-2>* {
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .cars-container>* {
@@ -116,9 +156,41 @@
   width: 100%;
 }
 
+.car-img-2 {
+  position: absolute;
+  top: 7rem;
+  width: 50%;
+}
+
+.car-img-3 {
+  position: absolute;
+  top: 000.1rem;
+  width: 50%;
+}
+
 .car-id {
   position: absolute;
   top: 18.125rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-id-2 {
+  position: absolute;
+  top: 13rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-id-3 {
+  position: absolute;
+  top: 8rem;
   width: 100%;
   color: blue;
   margin-left: 0.625rem;
@@ -136,9 +208,49 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.car-name-2 {
+  position: absolute;
+  top: 15rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-name-3 {
+  position: absolute;
+  top: 10rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .car-year {
   position: absolute;
   top: 22rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-year-2 {
+  position: absolute;
+  top: 17rem;
+  width: 100%;
+  color: blue;
+  margin-left: 0.625rem;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-year-3 {
+  position: absolute;
+  top: 12rem;
   width: 100%;
   color: blue;
   margin-left: 0.625rem;
@@ -162,6 +274,43 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.car-info-btn-2 {
+  color: white;
+  border: none;
+  width: 4em;
+  background-color: rgb(73, 73, 73);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cars-btns-div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5em;
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+}
+
 .car-info-btn:hover {
   background-color: rgb(123, 123, 123);
+}
+
+.car-left-side {
+  width: 45rem;
+}
+
+.car-right-side {
+  width: 45rem;
+}
+
+.huge-container {
+  width: 100%;
+  display: inline-flex;
 }
