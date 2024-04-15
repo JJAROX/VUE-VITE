@@ -1,0 +1,170 @@
+.red-component {
+  border: 0.25rem dotted red;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+}
+
+.blue-component {
+  border: 0.25rem dotted blue;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.75rem;
+}
+
+.aquamarine-component {
+  border: 0.25rem dotted aquamarine;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.75rem;
+}
+
+.vue-title {
+  color: red;
+  font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.vue-message {
+  color: blue;
+  font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.exercise {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  letter-spacing: 0.063rem;
+}
+
+.buttons-div {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-div>* {
+  margin-left: 0.938rem;
+}
+
+.vuex-button {
+  border: none;
+  background-color: red;
+  border-radius: 100%;
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+  color: white;
+}
+
+.childs-component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.circles-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.circles-container>* {
+  margin-left: 0.5rem;
+}
+
+.states-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.states-container>* {
+  margin-left: 0.5rem;
+}
+
+.cars-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cars-container>* {
+  margin-left: 0.938rem;
+}
+
+.car-color {
+  position: absolute;
+  width: 100%;
+  height: 2.188rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-status-1 {
+  position: absolute;
+  width: 100%;
+  height: 2.188rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2.188rem;
+  background-color: rgb(0, 255, 1);
+  text-transform: uppercase;
+}
+
+.car-status-2 {
+  position: absolute;
+  width: 100%;
+  height: 2.188rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2.188rem;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+}
+
+.car-image {
+  top: 50px;
+  position: absolute;
+  scale: 0.8;
+  left: -15px;
+}
+
+.car-info-div {
+  position: absolute;
+  top: 230px;
+  font-family: 'Inter', 'sans-serif';
+  margin-left: 10px;
+}
+
+.cars-buttons {
+  top: 350px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  left: 0px;
+}
+
+.cars-buttons>* {
+  margin-left: 15px;
+}
+
+.state-button {
+  background-color: rgb(81, 81, 81);
+  color: white;
+  height: fit-content;
+  width: 75px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
