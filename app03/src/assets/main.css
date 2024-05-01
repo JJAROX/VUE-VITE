@@ -1,0 +1,174 @@
+.red-component {
+  border: 0.25rem dotted red;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+}
+
+.blue-component {
+  border: 0.25rem dotted blue;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.75rem;
+}
+
+.aquamarine-component {
+  border: 0.25rem dotted aquamarine;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.75rem;
+}
+
+.vue-title {
+  color: red;
+  font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.vue-message {
+  color: blue;
+  font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.exercise {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  letter-spacing: 0.063rem;
+}
+
+.buttons-div {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-div>* {
+  margin-left: 0.938rem;
+}
+
+.vuex-button {
+  border: none;
+  background-color: red;
+  border-radius: 100%;
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+  color: white;
+}
+
+.childs-component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.circles-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.circles-container>* {
+  margin-left: 0.5rem;
+}
+
+.states-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.states-container>* {
+  margin-left: 0.5rem;
+}
+
+.state-button {
+  background-color: rgb(81, 81, 81);
+  color: white;
+  height: fit-content;
+  width: 75px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.posts-container>* {
+  margin-bottom: 0.469rem;
+}
+
+.posts-div {
+  background-color: rgb(237, 237, 237);
+}
+
+.posts-div>* {
+  margin-left: 0.938rem;
+}
+
+.selects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0.938rem;
+}
+
+.select-div {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.313rem;
+  background-color: rgb(149, 149, 199);
+  border: 0.125rem dotted blue;
+  margin-right: 0.938rem;
+}
+
+.car-select {
+  width: 18.75rem;
+}
+
+.cars-btns-container {
+  margin-top: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cars-btns-container>* {
+  margin-left: 0.938rem;
+}
+
+.cars-btn {
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.4rem;
+  background-color: rgb(69, 69, 69);
+  border-radius: 0.313rem;
+  cursor: pointer;
+  font-weight: bold
+}
+
+.cars-btn:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+.cars-div {}
+
+.cars-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cars-container>* {
+  margin-left: 15px;
+}

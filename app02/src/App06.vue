@@ -65,19 +65,4 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
-
-.state-button {
-  background-color: rgb(81, 81, 81);
-  color: white;
-  height: fit-content;
-  width: 75px;
-  padding-inline: 10px;
-  padding-block: 5px;
-  border-radius: 4px;
-  font-family: 'Inter';
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-}
 </style>
