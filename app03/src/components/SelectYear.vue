@@ -1,8 +1,8 @@
 <template>
   <div class="select-div">
     <p>wybierz rok:</p>
-    <select class="car-select">
-      <option v-for="item in array" :value="item.car_year">{{ item.car_year }}</option>
+    <select class="car-select" @change="selectFunction">
+      <option v-for="item in array" :value="item.car_year" :key="item.hex_color">{{ item.car_year }}</option>
     </select>
   </div>
 </template>
@@ -12,8 +12,13 @@ export default {
     return {
     };
   },
-  props: ['array']
-
+  props: ['array', 'yearFun']
+  ,
+  methods: {
+    selectFunction(e) {
+      this.yearFun(e)
+    }
+  }
 
 };
 </script>

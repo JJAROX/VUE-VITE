@@ -1,13 +1,17 @@
 <template>
   <div class="car-div" v-for="item in array">
     <div class="car-color" :style="{ 'background-color': item.hex_color }">
-      <p v-text="item.hex_color"></p>
+      <p>kolor auta</p>
     </div>
-    <h1>id: {{ item.id }}</h1>
-    <p>name: {{ item.car_name }}</p>
-    <p>year: {{ item.car_year }}</p>
-    <button>info</button>
-    <button>napraw auto</button>
+    <div class="car-color-body">
+      <h1>id: {{ item.id }}</h1>
+      <p>name: {{ item.car_name }}</p>
+      <p>year: {{ item.car_year }}</p>
+    </div>
+    <div class="cars-btns-container-2">
+      <button @click="displayInfo(item)" class="cars-btn-2">info</button>
+      <button @click="repairOrBrokeCar(item)" class="cars-btn-2">{{ buttonTextInfo(item) }}</button>
+    </div>
   </div>
 </template>
 <script>
@@ -16,7 +20,22 @@ export default {
     return {
     };
   },
-  props: ['array']
+  props: ['array'],
+  methods: {
+    displayInfo(car) {
+      alert(JSON.stringify(car, null, 5))
+    },
+    buttonTextInfo(car) {
+      if (car.damaged === true) {
+        return 'zepsuj auto'
+      } else {
+        return 'napraw auto'
+      }
+    },
+    repairOrBrokeCar(car) {
+      car.damaged === true ? car.damaged = false : car.damaged = true
+    }
+  },
 
 
 };

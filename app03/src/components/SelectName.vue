@@ -1,8 +1,8 @@
 <template>
   <div class="select-div">
     <p>wybierz markę:</p>
-    <select class="car-select">
-      <option v-for="item in array" :value="item.car_name">{{ item.car_name }}</option>
+    <select @change="selectFunction" class="car-select">
+      <option v-for="item in array" :value="item.car_name" :key="item.hex_color">{{ item.car_name }}</option>
     </select>
   </div>
 </template>
@@ -12,8 +12,12 @@ export default {
     return {
     };
   },
-  props: ['array']
-
+  props: ['array', 'nameFun'],
+  methods: {
+    selectFunction(e) {
+      this.nameFun(e)
+    }
+  }
 
 };
 </script>

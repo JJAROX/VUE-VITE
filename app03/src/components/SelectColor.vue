@@ -1,8 +1,8 @@
 <template>
   <div class="select-div">
     <p>wybierz kolor:</p>
-    <select class="car-select">
-      <option v-for="item in array" :value="item.hex_color">{{ item.hex_color }}</option>
+    <select @change="selectFunction" class="car-select">
+      <option v-for="item in array" :value="item.hex_color" :key="item.hex_color">{{ item.hex_color }}</option>
     </select>
   </div>
 </template>
@@ -10,9 +10,15 @@
 export default {
   data() {
     return {
+
     };
   },
-  props: ['array']
+  methods: {
+    selectFunction(e) {
+      this.colorFun(e)
+    }
+  },
+  props: ['array', 'colorFun']
 
 
 };
